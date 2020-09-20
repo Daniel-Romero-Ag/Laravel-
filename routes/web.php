@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/controlador','controlador@saludar');
+Route::get('/controlador','controladorController@saludar');
 
 
